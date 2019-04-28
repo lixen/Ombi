@@ -5,3 +5,5 @@ install:
  - nuget install NUnit.Runners -OutputDirectory testrunner  
 script:
  - xbuild /p:Configuration=Release Ombi.sln /p:TargetFrameworkVersion="v4.5"
+ 
+ bajskorv
